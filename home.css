@@ -1,0 +1,89 @@
+.home-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.header {
+  background: linear-gradient(to right, #00BFFF, #00FF7F); 
+}
+
+.nav-bar {
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px; 
+  margin-right: 10px;
+}
+
+.association-text {
+  background: linear-gradient(to right, #4CAF50, #1B5E20); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 26px;
+}
+
+.about-btn, .contact-btn, .learn-more-btn {
+  background: linear-gradient(to right, #4CAF50, #007bff);
+  border-radius: 20px;
+  margin-top: 10px;
+  padding: 8px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-btn:hover, .contact-btn:hover, .learn-more-btn:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.about-btn, .contact-btn, .learn-more-btn, .MuiButton-label {
+  color: #fff;
+  text-transform: none;
+}
+
+.about-btn .MuiSvgIcon-root, .contact-btn .MuiSvgIcon-root, .learn-more-btn .MuiSvgIcon-root {
+  margin-right: 5px;
+}
+
+.background-image {
+  background-image: url('https://th.bing.com/th/id/OIG3.IMFVeSprxuwwV_bcbPJn?w=1024&h=1024&rs=1&pid=ImgDetMain'); 
+
+
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  width: 100%;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.main-text {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-family: cursive;
+}
+
+.sub-text {
+  font-size: 20px;
+}
+
+.footer {
+  background: linear-gradient(to right, hsl(180, 66%, 73%), #87CEEB);
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}

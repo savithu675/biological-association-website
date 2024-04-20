@@ -1,0 +1,14 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  text-align: center;
+}
+
+.learn-more-btn {
+  margin-top: 20px;
+}
